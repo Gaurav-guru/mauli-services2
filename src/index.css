@@ -1,0 +1,38 @@
+/* index.css */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #B2AC88;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.blink {
+  border-radius: 50%;
+  background-color: rgb(207, 8, 8);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: zcwmini2 1.5s ease-out infinite;
+}
+
+@keyframes zcwmini2 {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
